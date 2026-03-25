@@ -1,0 +1,2 @@
+sub_id,target,maxP,centP,cent_foc_dist,focus_displacement_mm,fwhm_vol,fwhm_axis1,fwhm_axis2,fwhm_axis3,amp_kdata,press_kdata,gain_press_over_amp
+07,1,0.06609999999999999,38300.0,109.519,0.0,9.6,5.76,2.29,1.61,19163.3,66100.0,3.449301529486049
