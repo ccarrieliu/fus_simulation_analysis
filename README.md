@@ -28,7 +28,7 @@ This project builds tools to quantify beam focusing quality and analyze simulati
 
 ## Example Output
 ![Anatomy Figure](docs/S07T1_anatomy_overlay.png)
-![Principal Axes Plot](docs/S07T1_Principal_axes.png)
+![Principal Axes Plot](docs/S07T1_principal_axes.png)
 ![Pressure Profiles Plot](docs/S07T1_anchored_profiles.png)
 ![Analysis CSV File](docs/analysis.csv)
 
