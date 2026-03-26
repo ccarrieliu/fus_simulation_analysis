@@ -176,7 +176,7 @@ def save_principal_axes_plot(results_folder, sub_id, target, focus_mask, dx_val,
     t_steps = np.linspace(-40, 40, 200)                                             # Range: +/- 40mm
     fig, ax = plt.subplots(figsize=(8, 6))                                          # Initialize figure
     axis_names = ["Axial (Long)", "Lateral (Mid)", "Lateral (Minor)"]               # Label strings
-    colors = ["#FF4136", "#0074D9", "#2ECC40"]                                # Colors
+    colors = ["#FF4136", "#0074D9", "#2ECC40"]                                      # Colors
     for i, name in enumerate(axis_names):                                           # Iterate axes
         line_mm = centroid_mm[None, :] + t_steps[:, None] * directions[:, i]        # Line points in mm
         line_vox = (line_mm / dx_val).astype(int)                                   # Points in voxels
@@ -229,9 +229,9 @@ def save_pressure_profiles_plot(results_folder, sub_id, target, pressure, dx, x0
     y_mm = (np.arange(len(y_profile)) - y0) * dx                                   # 
     x_mm = (np.arange(len(x_profile)) - x0) * dx                                   # 
     fig, ax = plt.subplots(figsize=(8, 6))                                         # 
-    ax.plot(x_mm, x_profile, label="Lateral (X)", linewidth=1.5, color="#0074D9")# Plot X
-    ax.plot(y_mm, y_profile, label="Lateral (Y)", linewidth=1.5, color="#FF4136")# Plot Y
-    ax.plot(z_mm, z_profile, label="Axial (Z)", linewidth=1.5, color="#2ECC40")  # Plot Z
+    ax.plot(x_mm, x_profile, label="Lateral (X)", linewidth=1.5, color="#0074D9")  # Plot X
+    ax.plot(y_mm, y_profile, label="Lateral (Y)", linewidth=1.5, color="#FF4136")  # Plot Y
+    ax.plot(z_mm, z_profile, label="Axial (Z)", linewidth=1.5, color="#2ECC40")    # Plot Z
     ax.set(title="Pressure Profiles", xlabel="Dist from Max [mm]", \
            ylabel="Pressure [MPa]")
     ax.grid(axis="both", alpha=0.3, linestyle="--")
