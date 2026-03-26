@@ -34,9 +34,9 @@ This project builds tools to quantify beam focusing quality and analyze simulati
 ## Example Output
 
 Individual Simulation Analysis: 
-![Anatomy Figure](docs/S07T1_anatomy_overlay.png)
-![Principal Axes Plot](docs/S07T1_principal_axes.png)
-![Pressure Profiles Plot](docs/S07T1_anchored_profiles.png)
+![Anatomy Figure](docs/Anatomy_overlay.png)
+![Principal Axes Plot](docs/Principal_axes.png)
+![Pressure Profiles Plot](docs/Anchored_profiles.png)
 ![Analysis CSV File](docs/analysis.csv)
 
 Cross-Simulation Comparison
