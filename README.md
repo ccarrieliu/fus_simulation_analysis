@@ -32,10 +32,18 @@ This project builds tools to quantify beam focusing quality and analyze simulati
   - FWHM in each dimension Clustered Bar Plot
 
 ## Example Output
+
+Individual Simulation Analysis: 
 ![Anatomy Figure](docs/S07T1_anatomy_overlay.png)
 ![Principal Axes Plot](docs/S07T1_principal_axes.png)
 ![Pressure Profiles Plot](docs/S07T1_anchored_profiles.png)
 ![Analysis CSV File](docs/analysis.csv)
+
+Cross-Simulation Comparison
+![Gain Barplot](docs/gain_barplot.png)
+![Max pressure Barplot](docs/max_pressure_barplot.png)
+![Pressure Offset Barplot](docs/pressure_offset_barplot.png)
+![FWHM grouped comparison](docs/fwhm_grouped_comparison.png)
 
 ## How to Run
 ```bash
