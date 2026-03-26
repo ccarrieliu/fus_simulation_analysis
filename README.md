@@ -25,7 +25,7 @@ This project builds tools to quantify beam focusing quality and analyze simulati
 
 2. Cross-Simulation Comparison
 - Input Directory: This script scans PRESSURE_ROOT (defaulting to ~/Documents/simulation_analysis/pressure_results) for SimXXX folders containing analysis.csv files
-- Excecution: Compiles resuls from the analysis.csv files to produce comparative plots, returns to (defaulting to ~/Documents/simulation_analysis/summary_plots)
+- Excecution: Compiles results from the analysis.csv files to produce comparative plots, returns to (defaulting to ~/Documents/simulation_analysis/summary_plots)
 - Output Artifacts:
   - Peak Acoustic Pressure Bar Plot
   - Gain Bar Plot: Assembly of (Peak Acoustic Pressure / Source Amplitude) Values 
