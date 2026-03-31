@@ -3,14 +3,14 @@
 ## Project Overview
 An automated Pipeline to analyze 3D acoustic pressure fields and validate focussed ultrasound targetting, with the intent of investigating neuromodulation of specific brain structures.
 - LIFU_Simulation_Analysis: Analyzes pressure fields from transcranial focused ultrasound (FUS) simulation results to perform beam profiling, focal volume estimation, and anatomical visualization, which are logged and outputted as figures.
-- Cross-simlation Comparative Analysis: Aggregates results across multiple subject IDs and targets, facilitating parametric comparisons. 
+- Cross-simulation Comparative Analysis: Aggregates results across multiple subject IDs and targets, facilitating parametric comparisons. 
 
 ## Motivation
 Accurate targeting in transcranial FUS is challenging due to skull-induced distortion.
 This project builds tools to quantify beam focusing quality and analyze simulation outputs. 
 
 ## System Requiremements
-- Python Environment: REquires Python 3.x with numpy, scipy, matplotlib, pandas, h5py, and PyYAML
+- Python Environment: Requires Python 3.x with numpy, scipy, matplotlib, pandas, h5py, and PyYAML
 - Data Sources: Designed to process .h5 files (pressure and anatomy) and .yml configuration fiels exported from simulation runs.
 
 ## Usage and Workflow
