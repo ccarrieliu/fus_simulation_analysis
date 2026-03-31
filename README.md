@@ -2,8 +2,8 @@
 
 ## Project Overview
 An automated Pipeline to analyze 3D acoustic pressure fields and validate focussed ultrasound targetting, with the intent of investigating neuromodulation of specific brain structures.
-- LIFU_Simulation_Analysis: Analyzes pressure fields from transcranial focused ultrasound (FUS) simulation results to perform beam profiling, focal volume estimation, and anatomical visualization, which are logged and outputted as figures.
-- Cross-simulation Comparative Analysis: Aggregates results across multiple subject IDs and targets, facilitating parametric comparisons. 
+- Focussed_Ultrasound_Simulation_Analysis: Analyzes pressure fields from transcranial focused ultrasound (FUS) simulation results to perform beam profiling, focal volume estimation, and anatomical visualization, which are logged and outputted as figures.
+- Cross-simulation_Comparative_Analysis: Aggregates results across multiple subject IDs and targets, facilitating parametric comparisons. 
 
 ## Motivation
 Accurate targeting in transcranial FUS is challenging due to skull-induced distortion.
